@@ -78,7 +78,7 @@ export const SALES_LIST = [
   {
     id: 'discounts',
     label: 'Discounts',
-    to:'/discount',
+    to:'/discounts',
 
     icon : DiscountIcon
 

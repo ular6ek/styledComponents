@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  SidebarBack,
   SidebarBlock,
   SidebarFooter,
   SidebarHead,
@@ -9,6 +10,7 @@ import {
 import Logo from "../../Atoms/Logo/Logo";
 import SidebarList from "../../Molecules/SidebarList/SidebarList";
 import { MAIN_LIST, OTHER_LIST, SALES_LIST } from "./const";
+import BackArrow from "../../../Assets/Icons/BackArrow";
 
 export default function Sidebar() {
   return (
@@ -16,6 +18,9 @@ export default function Sidebar() {
       <SidebarHead>
         <SidebarBlock>
         <Logo />
+            <SidebarBack>
+              <BackArrow/>
+            </SidebarBack>
         </SidebarBlock>
         <SidebarBlock>
           <SidebarTitle>MENU</SidebarTitle>

@@ -19,8 +19,7 @@ export const LinkStyled = styled(NavLink)`
 
         svg {
           path {
-            background:0CAF60; 
-            
+            fill:#0CAF60; 
           }
       }
     }
@@ -30,10 +29,11 @@ export const LinkStyled = styled(NavLink)`
 
     svg {
         path {
-          fill:0CAF60; 
+          fill:#0CAF60; 
         }
     }
 
   }
+
 
 `;
