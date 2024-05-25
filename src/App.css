@@ -1,17 +1,30 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: #FAFAFA;
+  background: #fafafa;
 }
 
 .MailIcon {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .BallIcon {
+  cursor: pointer;
+}
+
+.Data {
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 1.6pc;
+  left: 75pc;
+  border: none;
+}
+.res {
+    outline: none;
     cursor: pointer;
 }

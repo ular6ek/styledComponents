@@ -19,8 +19,6 @@ export const TableTr = styled.div`
   padding: 15px 12px;
 `;
 
-
-
 export const TableTh = styled.div`
   font-size: 16px;
   font-weight: 500;
@@ -57,7 +55,7 @@ export const TableStatus = styled.div`
   line-height: 22.4px;
   text-align: right;
   border-radius: 8px;
-  width:max-content;
-  color:${({color}) => color};
-  background:${({bg})=> bg};
+  width: max-content;
+  color: ${({ color }) => color};
+  background: ${({ bg }) => bg};
 `;
